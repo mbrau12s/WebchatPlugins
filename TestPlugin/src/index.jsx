@@ -5,7 +5,7 @@ const RedText = (props) => {
 
     return (
         <span style={{color: 'red'}}>
-            {text}
+            {JSON.stringify(props)}
         </span>
     );
 }
