@@ -1,11 +1,11 @@
 import * as React from 'react';
 
 const RedText = (props) => {
-    const text = props.message.text;
+    const msgProps = JSON.stringify(props);
 
     return (
-        <span style={{color: 'red'}}>
-            {JSON.stringify(props)}
+        <span>
+            {msgProps}
         </span>
     );
 }
