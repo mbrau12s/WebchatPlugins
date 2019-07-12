@@ -1,14 +1,7 @@
 import * as React from 'react';
 
-const AlertTest = (props) => {
-    const msgProps = JSON.stringify(props);
+const AlertTest = () => {
     alert("I am a plugin!");
-
-    return (
-        <span>
-            {msgProps}
-        </span> 
-    );
 }
 
 const alertTest = {
