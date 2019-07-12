@@ -5,6 +5,6 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"object-assign":"J4Nk"}],"1n8/":[function(require,module,exports) {
 "use strict";module.exports=require("./cjs/react.production.min.js");
 },{"./cjs/react.production.min.js":"awqi"}],"/deH":[function(require,module,exports) {
-"use strict";var e=t(require("react"));function t(e){if(e&&e.__esModule)return e;var t={};if(null!=e)for(var r in e)if(Object.prototype.hasOwnProperty.call(e,r)){var n=Object.defineProperty&&Object.getOwnPropertyDescriptor?Object.getOwnPropertyDescriptor(e,r):{};n.get||n.set?Object.defineProperty(t,r,n):t[r]=e[r]}return t.default=e,t}var r=function(t){var r=JSON.stringify(t);return alert("I am a plugin!"),e.createElement("span",null,r,t)},n={match:"alert-test",component:r};window.cognigyWebchatMessagePlugins||(window.cognigyWebchatMessagePlugins=[]),window.cognigyWebchatMessagePlugins.push(n);
+"use strict";var e=t(require("react"));function t(e){if(e&&e.__esModule)return e;var t={};if(null!=e)for(var r in e)if(Object.prototype.hasOwnProperty.call(e,r)){var n=Object.defineProperty&&Object.getOwnPropertyDescriptor?Object.getOwnPropertyDescriptor(e,r):{};n.get||n.set?Object.defineProperty(t,r,n):t[r]=e[r]}return t.default=e,t}var r=function(t){var r=JSON.stringify(t);return alert("I am a plugin!"),e.createElement("span",null,r)},n={match:"alert-test",component:r};window.cognigyWebchatMessagePlugins||(window.cognigyWebchatMessagePlugins=[]),window.cognigyWebchatMessagePlugins.push(n);
 },{"react":"1n8/"}]},{},["/deH"], null)
-//# sourceMappingURL=/props-test-plugin.js.map
+//# sourceMappingURL=/alert-test.js.map
