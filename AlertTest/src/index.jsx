@@ -12,8 +12,8 @@ const AlertTest = (props) => {
 }
 
 const alertTest = {
-    match: 'red-text',
-    component: RedText
+    match: 'alert-test',
+    component: AlertTest
 }
 
 if (!window.cognigyWebchatMessagePlugins) {
