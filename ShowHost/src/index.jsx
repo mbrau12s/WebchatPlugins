@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 const ShowHost = () => {
-    host = window.location.host;
+    const host = window.location.host;
 
     return (
         <span>
