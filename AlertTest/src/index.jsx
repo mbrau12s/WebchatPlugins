@@ -2,6 +2,8 @@ import * as React from 'react';
 
 const AlertTest = () => {
     alert("I am a plugin!");
+
+    return null;
 }
 
 const alertTest = {
