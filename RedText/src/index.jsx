@@ -1,14 +1,15 @@
 import * as React from 'react';
 
 const RedText = (props) => {
-    const msgProps = JSON.stringify(props);
+    const text = props.message.text;
 
     return (
-        <span>
-            {msgProps}
+        <span style={{color: 'red'}}>
+            {text}
         </span>
     );
 }
+
 
 const redTextPlugin = {
     match: 'red-text',
