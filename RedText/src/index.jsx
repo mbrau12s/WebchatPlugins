@@ -10,7 +10,6 @@ const RedText = (props) => {
     );
 }
 
-
 const redTextPlugin = {
     match: 'red-text',
     component: RedText
