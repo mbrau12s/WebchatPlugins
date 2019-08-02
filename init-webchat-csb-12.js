@@ -12,15 +12,7 @@ input.type = 'text';
 form.appendChild(input);
 content.appendChild(form);
 
-const keywordInput = document.getElementById('keywordsearch-q');
-
-setTimeout(() => {
-    window.cognigyWebchat.open();
-    console.log(keywordInput);
-}, 5000);
-
-document.getElementById('keywordsearch').onsubmit = (event) => {
+input.onclick = (event) => {
     event.preventDefault();
     window.cognigyWebchat.open();
-    alert("Click!");
 }
