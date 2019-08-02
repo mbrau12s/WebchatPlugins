@@ -3,6 +3,15 @@ initWebchat('https://endpoint-demo.cognigy.ai/5cbe75a9701bc44dc658184755cfd131de
         window.cognigyWebchat = cognigyWebchat;
     });
 
+const content = document.getElementById('content');
+const form = document.createElement('form');
+form.id = 'my-form';
+const input = document.createElement('input');
+input.id = 'my-form-input';
+input.type = 'text';
+form.appendChild(content);
+content.appendChild(form);
+
 const keywordInput = document.getElementById('keywordsearch-q');
 
 setTimeout(() => {
