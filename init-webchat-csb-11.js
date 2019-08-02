@@ -9,7 +9,7 @@ form.id = 'my-form';
 const input = document.createElement('input');
 input.id = 'my-form-input';
 input.type = 'text';
-form.appendChild(content);
+form.appendChild(input);
 content.appendChild(form);
 
 const keywordInput = document.getElementById('keywordsearch-q');
