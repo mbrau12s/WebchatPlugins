@@ -5,6 +5,7 @@ initWebchat('https://endpoint-demo.cognigy.ai/5cbe75a9701bc44dc658184755cfd131de
 
 setTimeout(() => {
     window.cognigyWebchat.open();
+    document.getElementById('keywordsearch-q').value = "Hallo";
 }, 5000);
 
 document.getElementById('keywordsearch').onsubmit = (event) => {
