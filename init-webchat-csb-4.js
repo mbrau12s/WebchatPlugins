@@ -12,4 +12,4 @@ function myFunc() {
     console.log("Hi!");
 }
 
-keywordInput.addEventListener('focus', myFunc);
+keywordInput.addEventListener("click", myFunc);
