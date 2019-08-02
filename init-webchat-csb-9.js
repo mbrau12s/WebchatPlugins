@@ -3,9 +3,11 @@ initWebchat('https://endpoint-demo.cognigy.ai/5cbe75a9701bc44dc658184755cfd131de
         window.cognigyWebchat = cognigyWebchat;
     });
 
+const keywordInput = document.getElementById('keywordsearch-q');
+
 setTimeout(() => {
     window.cognigyWebchat.open();
-    document.getElementById('keywordsearch-q').value = "Hallo";
+    console.log(keywordInput);
 }, 5000);
 
 document.getElementById('keywordsearch').onsubmit = (event) => {
