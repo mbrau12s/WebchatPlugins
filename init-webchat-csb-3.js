@@ -7,7 +7,9 @@ const cognigyWebchat = initWebchat('https://endpoint-demo.cognigy.ai/5cbe75a9701
 const keywordInput = document.getElementById('keywordsearch-q');
 const locationInput = document.getElementById('keywordsearch-locationsearch');
 
-keywordInput.addEventListener('focus', () => {
+function myFunc() {
     cognigyWebchat.open();
-    console.log("Hi!"); 
-});
+    console.log("Hi!");
+}
+
+keywordInput.addEventListener('focus', myFunc);
