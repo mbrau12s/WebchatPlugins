@@ -1,18 +1,18 @@
-import * as React from 'react';
+import * as React from "react";
 
 const AlertTest = () => {
-    alert("I am a plugin!");
+  alert("I am a plugin!");
 
-    return null;
-}
+  return null;
+};
 
 const alertTest = {
-    match: 'alert-test',
-    component: AlertTest
-}
+  match: "alert-test",
+  component: AlertTest
+};
 
 if (!window.cognigyWebchatMessagePlugins) {
-    window.cognigyWebchatMessagePlugins = [];
+  window.cognigyWebchatMessagePlugins = [];
 }
 
 window.cognigyWebchatMessagePlugins.push(alertTest);
